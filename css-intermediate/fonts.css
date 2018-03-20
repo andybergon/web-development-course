@@ -1,0 +1,25 @@
+/* font-family, font-size, font-weight, line-weight, text-align, text-decoration */
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: Indie Flower;
+    font-size: 5.0em;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 2.0em;
+    font-weight: bold; /* default: normal */
+    /*font-weight: 700; !* 100-800 *!*/
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span {
+    font-size: 2.0em;
+}

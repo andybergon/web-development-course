@@ -1,0 +1,51 @@
+/*element*/
+li {
+    border: 1px solid red;
+}
+
+/*class*/
+.completed {
+    text-decoration: line-through;
+}
+
+/*id*/
+#special {
+    background: yellow;
+}
+
+/*star*/
+* {
+
+}
+
+/*descendant*/
+li a {
+
+}
+
+li .completed {
+
+}
+
+/*adjacent*/
+h4 + ul {
+
+}
+
+/*attribute*/
+a[href="http://www.google.com"] {
+
+}
+
+input[style="text"] {
+
+}
+
+/*nth of types*/
+li:nth-of-type(3) {
+
+}
+
+li:nth-of-type(even) {
+
+}

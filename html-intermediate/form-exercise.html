@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="email">Email: </label>
+            <input name="email" type="email" placeholder="username@email.com" id="email" required>
+
+            <label for="password">Password: </label>
+            <input name="password" type="password" placeholder="password" minlength="5" maxlength="10" id="password"
+                   required>
+        </div>
+
+        <div>
+            <label>
+                Birthday:
+                <select name="select" required>
+                    <option value="" selected disabled hidden>-Choose Year-</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox" id="terms" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit!">
+        </div>
+    </form>
+</body>
+</html>
